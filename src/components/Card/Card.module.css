@@ -1,0 +1,47 @@
+.card{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.card_imagem{
+    border-radius: 10px;
+    width: 180px;
+    transition: all  0.3s;
+}
+
+.card_listas{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    cursor: pointer;
+    gap: 20px;
+}
+
+.card_listas li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.card_imagem:hover{
+    transform: scale(1.1);
+}
+
+.card_title{
+    color: #F2F2F2;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Poppins';
+
+}
+
+.card_popularity{
+    color: #F2F2F2;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: 'Poppins';
+}
+

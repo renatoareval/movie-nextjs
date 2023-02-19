@@ -1,0 +1,23 @@
+.caixa_input{
+    position: relative;
+}
+
+.input{
+    border: none;
+    width: 200px;
+    height:30px;
+    border-radius: 4px;
+    padding: 4px;
+}
+.input:focus, .input:focus{
+    outline: none;
+}
+.icone_input{
+    right: -40px;
+    background-color: #f2f2f2;
+   
+    border-radius: 4px;
+    cursor: pointer;
+    position: absolute;
+    background-color: #8A2BE2;
+}
